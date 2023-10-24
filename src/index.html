@@ -70,12 +70,12 @@
             <div class="flex 2xl:jusify-center justify-between sm:flex-col">
                 <div class="bg-gray-200 rounded-md mx-20 p-5 w-80">
                     <div class="flex justify-center font-bold py-2">Frontend Projects</div>
-                    <div class="flex w-80 justify-between">
-                        <div class=" p-2 shadow shadow-lg shadow-black hover: shadow-yellow-300/50">
+                    <div class="flex justify-between">
+                        <div class=" p-2 shadow shadow-lg shadow-black hover:shadow-yellow-300/50">
                             <a href="https://afodydigitals.github.io/week9-Assignment/"><img class="my-2 w-44" src="../src/Resources/to-do list app.svg" alt="simple to-do list app"></a>
                             <div class="text-[12px] py-2"> A Simple To-Do List App </div>
                         </div>
-                        <div class="p-2 shadow shadow-lg shadow-black hover: shadow-yellow-300/50">
+                        <div class="p-2 shadow shadow-lg shadow-black hover:shadow-yellow-300/50">
                             <a href="https://afodydigitals.github.io/Responsive-Webpage/"><img class="my-2 w-44" src="../src/Resources/Responsive webpage.svg" alt="Responsive webpage"></a>
                             <div class="text-[12px] py-2">A Responsive Webpage</div>
                         </div>
@@ -99,6 +99,48 @@
         </div>
     </div>
  
+    <div class=" isolate bg-black text-white px-6 py-24 sm:py-32 lg:px-8 relative bg-cover bg-center" style="background-image: url('../src/Resources/form bg.svg')">
+        <div class="mx-auto max-w-2xl text-center">
+            <img src="../src/Resources/Contact.svg">
+        <p class="mt-2 text-lg leading-8 text-white">Want to see more samples or would like to hire me?</p>
+        </div>
+        <form action="#" method="POST" class="mx-auto mt-16 max-w-xl sm:mt-20">
+        <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+
+            <div class="sm:col-span-2">
+            <label for="first-name" class="block text-sm font-semibold leading-6 text-white">Full name</label>
+            <div class="mt-2.5">
+                <input type="text" name="full-name" id="full-name" autocomplete="full-name" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-900 focus:ring-2 focus:ring-inset focus:ring-yellow-300 sm:text-sm sm:leading-6">
+            </div>
+            </div>
+        
+            
+            <div class="sm:col-span-2">
+            <label for="email" class="block text-sm font-semibold leading-6 text-white">Email</label>
+            <div class="mt-2.5">
+                <input type="email" name="email" id="email" autocomplete="email" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-900 focus:ring-2 focus:ring-inset focus:ring-yellow-300 sm:text-sm sm:leading-6">
+            </div>
+            </div>
+            
+            <div class="sm:col-span-2">
+            <label for="message" class="block text-sm font-semibold leading-6 text-white">Message</label>
+            <div class="mt-2.5">
+                <textarea name="message" id="message" rows="4" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-900 focus:ring-2 focus:ring-inset focus:ring-yellow-300 sm:text-sm sm:leading-6"></textarea>
+            </div>
+            </div>
+            <div class="flex gap-x-4 sm:col-span-2">
+            <div class="flex h-6 items-center">
+                
+            </div>
+            
+            </div>
+        </div>
+        <div class="mt-5">
+            <button type="submit" class="block w-full rounded-md bg-yellow-300 px-3.5 py-2.5 text-center text-sm font-semibold text-black shadow-sm hover:bg-yelllow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-500">Send message</button>
+        </div>
+        </form>
+    </div>
+    
 <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
 </body>
 </html>
